@@ -194,8 +194,8 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.setAttribute("data-via", "Y. Z. Chen");
-  tweet.setAttribute("data-url", "http://github.com/geno1024");
-  tweet.setAttribute("data-counturl", "http://github.com/geno1024");
+  tweet.setAttribute("data-url", "http://geno1024.github.io/2048-233-html/");
+  tweet.setAttribute("data-counturl", "http://geno1024.github.io/2048-233-html/");
   tweet.textContent = "Tweet";
 
   var text = "I scored " + this.score + " points at 23333333333333333 edition, a game where you " +
